@@ -156,7 +156,7 @@ def addDataToSheets():
 
 
     total_movies = 0
-    sheet_num = 0
+    sheet_num = 1
 
     for input_file in csv_files:
         df = pandas.read_csv(input_file)
